@@ -1,0 +1,56 @@
+<!-- 
+     This website is creator by Lim Chee Ying, Ng Mui Jing, and Mak Jin Yuan.
+	 Date: 27 February 2023
+	 This website is created for a dental management system, which develops using HTML, CSS, JavaScript, PHP, and MySQL.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Web Designing Assignment">
+    <meta name="keyword" content="startshine, dental, dental clinic, dental management system">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>StarShine | Login</title>
+
+    <!-- External CSS style sheet: logNreg.css -->
+    <link rel="stylesheet" href="./css/logNreg.css">
+
+    <!-- Import CSS from external source: Boxicon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+    <!-- Website icon that will be displayed in the browser tab -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>    
+<body>
+    
+    <!-- Main Content of the website -->
+    <section class="content">
+        <div class="wrapper">
+            <form method ="POST" action="loginExec.php" name="login-form">
+                <h2>Login</h2>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="text" placeholder="Email" id="email" name="txtEmail" required />
+                </div>
+                <div class=" input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" placeholder="Password" id="password" name="txtPassword" required />
+                </div>
+                <div class="forgot-pass">
+                    <a href="loginForgetPassword.html">Forgot Password?</a>
+                </div>
+                <button type="submit" value="login" name="btnFormSubmit">Login</button>
+                <div class="register-link">
+                    <p>Don't have Account? <a href="signup.html">Register</a></p>
+                </div>
+            </form>
+           </div>
+    </section>
+    
+    <!-- External JavaScript file: styles.css -->
+    <script src="./js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
